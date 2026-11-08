@@ -1,0 +1,50 @@
+{
+  "name": "dsh-client-ui-skin-muse-plush",
+  "version": "1.0.0",
+  "description": "Muse Plush skin for the DeepSeek Harness Web GUI: powder-blue pile over the whole window, belly-beige bubbles with fuzzy edges, brass buttons, and a small plush Muse lounging on the composer. Light and dark.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./skin.json": "./skin.json",
+    "./package.json": "./package.json"
+  },
+  "icon": "icon.svg",
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "skin.json",
+    "icon.svg",
+    "preview",
+    "docs",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "theme",
+    "skin",
+    "plush",
+    "fluffy",
+    "pastel",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# dsh-client-ui-skin-muse-plush bundle patch: inserts the skin's client entry
+# into the web plugin roster. Skins are mutually exclusive; when the dsh-skin
+# manager is installed it also moves the other skin rows to disabled.
+- insert:
+    - id: ui-skin-muse-plush
+      name: 'dsh-client-ui-skin-muse-plush'

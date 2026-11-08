@@ -1,0 +1,23 @@
+{
+  "id": "muse-plush",
+  "name": "Muse 毛绒",
+  "nameEn": "Muse Plush",
+  "author": "tHUNDER",
+  "tagline": "粉蓝长绒、肚皮色气泡、毛茸茸的边",
+  "taglineEn": "Powder-blue pile, belly-beige bubbles, fuzzy edges",
+  "description": "照着 Muse 那种毛绒玩偶做的 DSH 皮肤：整个窗口是粉蓝色长绒，用户气泡和输入框是灰米色肚皮绒、边缘带毛边，品牌色和发送键是棕色纽扣，输入框右上角趴着一只小团子。夜间是同一只 Muse 关了灯。",
+  "tags": ["plush", "fluffy", "cute", "pastel", "blue"],
+  "accent": "#B7CBE2",
+  "bodyAttr": "data-dsh-muse-plush",
+  "dshCompatibility": "0.2.2rc1",
+  "package": "dsh-client-ui-skin-muse-plush",
+  "wiring": {
+    "id": "ui-skin-muse-plush",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "preview/light.png",
+    "dark": "preview/dark.png"
+  },
+  "order": 20
+}
