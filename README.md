@@ -21,10 +21,13 @@ A plush-toy skin for the DeepSeek Harness Web GUI. The whole window becomes powd
 ## 安装
 
 ```bash
-dsh plugin --profile <你的 profile> add dsh-client-ui-skin-muse-plush
+# 市场里点「安装」用的就是这条
+dsh plugin add https://github.com/zhule33-cmyk/muse-plush-skin/releases/download/v1.0.0/dsh-client-ui-skin-muse-plush-1.0.0.tgz
 ```
 
-装完重启 DSH。桌面端把 `<你的 profile>` 换成 `desktop`（CLI 管不到 desktop profile 时，改装下面的 Release 包或让 DSH 自己装）。
+装完重启 DSH 生效。要指定 profile 时加 `--profile <名称>`；桌面端的 `desktop` profile 由 Electron 独占管理，CLI 会被拒绝，请在 DSH 里「设置 → 插件」安装，或在终端里装到别的 profile 试用。
+
+还没发 npm；以后发到 npm 后可以简写成 `dsh plugin add dsh-client-ui-skin-muse-plush`。
 
 - 和 `@smalltailqwq/dsh-client-ui-skin-deep-whale-manager`（皮肤管理）配合最好：装好后在「设置 → 皮肤管理 → Muse 毛绒」里开关小团子、毛边，调绒长和毛色。
 - 不装皮肤管理也能用，只是默认开满（小团子开、毛边开、标准绒长、默认毛色）。
