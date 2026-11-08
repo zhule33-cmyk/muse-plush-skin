@@ -2,7 +2,7 @@
 
 A plush-toy skin for the DeepSeek Harness Web GUI. The whole window becomes powder-blue pile, the bubbles and composer turn into a beige plush belly with fuzzy edges, brand marks become brass buttons, and a small plush Muse lounges on the composer — with its own lights-out version for dark mode.
 
-> Fan-made skin. Not affiliated with DeepSeek, Meta or the Muse product. See [NOTICE](NOTICE).
+> 角色 Muse（绒毛身体、耳朵、纽扣眼睛、输入框上那只小团子）是作者自设的原创形象，与任何同名产品无关；皮肤本身与 DeepSeek 无隶属关系。见 [NOTICE](NOTICE)。
 
 ![Muse 毛绒（浅色）](preview/light.png)
 

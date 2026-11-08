@@ -1,16 +1,16 @@
 Muse Plush (dsh-client-ui-skin-muse-plush)
 =========================================
 
-Fan-made, unofficial skin for the DeepSeek Harness Web GUI.
+An unofficial skin for the DeepSeek Harness Web GUI.
 
-- Not affiliated with, endorsed by, or sponsored by DeepSeek, Meta, or the
-  Muse product. "Muse" here refers to the plush-toy look this skin imitates;
-  no claim is made to any third party's name, character or trademark.
+- The character "Muse" — its plush body, ears, brass-button eyes and the little
+  mascot on the composer — is the author's own design, made for this skin. It is
+  not derived from any third party's character or mascot, and claims no
+  affiliation with any product of that name.
+- Not affiliated with, endorsed by, or sponsored by DeepSeek.
 - No third-party artwork is bundled. Every visual is generated at runtime from
   original code: the fur texture is drawn with canvas, the mascot and its
   buttons are inline SVG, the fuzzy bubble edges are SVG displacement filters.
   No images, sprites, fonts or audio are shipped in this package.
-- If a rights holder objects to this fan work, the package will be unpublished
-  on request.
 
-Bundled code is original and licensed MIT (see LICENSE).
+Bundled code and artwork are original and licensed MIT (see LICENSE).
